@@ -1,0 +1,40 @@
+Test case 1:
+
+Plan: A
+Call Start Time: 14:23:11
+Call End Time: 15:50:13
+Date of Call: Thurs 15 4
+Call Info:
+Start Time: 14:23:11
+End Time: 15:50:13
+Date: Thurs 15 4
+Duration: 88 minutes
+Plan A:
+Call Time 		Call Day	Duration	Rate
+7:00 am to 5:00 pm	Sun-Thurs	<15 mins	 0.6
+7:00 am to 5:00 pm	Sun-Thurs	>=15 mins	 0.8
+5:01 pm to 6:59 am	Sun-Thurs	any	 	0.45
+any			Fri-Sat		any		0.25
+
+Call Rate: L.E. 70.4 
+
+Test case 2:
+
+Plan: B
+Call Start Time: 14:23:11
+Call End Time: 15:50:13
+Date of Call: Thurs 15 4
+Call Info:
+Start Time: 14:23:11
+End Time: 15:50:13
+Date: Thurs 15 4
+Duration: 88 minutes
+Plan B:
+Call Time 		Call Day	Duration	Rate
+7:00 am to 5:00 pm	Sun-Wed		<30 mins	 0.6
+7:00 am to 5:00 pm	Sun-Wed		>=30 mins	 0.8
+5:01 pm to 6:59 am	Sun-Wed		any	 	0.45
+any			Thurs-Fri-Sat	any		0.25
+
+Call Rate: L.E. 22 
+
